@@ -5,4 +5,4 @@ RUN pip install --upgrade pip
 RUN pip install helloworld-ajilraju
 
 # run the script Ad hoc
-CMD ["python", "-c", "from helloworld import helloworld; print(helloworld.sayhello())"
+CMD ["python", "-c", "from helloworld import helloworld; print(helloworld.sayhello())]"
