@@ -3,9 +3,6 @@ description: 'Print a Hello World for the actions'
 branding:
   icon: 'printer'  
   color: 'purple'
-outputs:
-  time:
-    description: 'The time we greeted you'
 runs:
   using: 'docker'
   image: 'Dockerfile'
